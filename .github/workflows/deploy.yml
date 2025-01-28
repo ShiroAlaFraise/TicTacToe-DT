@@ -33,7 +33,7 @@ jobs:
           const readableStreamForFile = fs.createReadStream('./src/index.html');
           const options = {
             pinataMetadata: {
-              name: 'Tic-Tac-Toe',
+              name: 'TicTacToe',
             },
             pinataOptions: {
               cidVersion: 0
