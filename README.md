@@ -1,12 +1,12 @@
 # TicTacToe Decentralized App
 
 ## Description
-Ce projet est une application décentralisée (DApp) simple qui implémente un jeu de TicTacToe. L'application est hébergée sur IPFS via Pinata et utilise GitHub Actions pour automatiser le déploiement.
+Ce projet est une application dÃ©centralisÃ©e (DApp) simple qui implÃ©mente un jeu de TicTacToe. L'application est hÃ©bergÃ©e sur IPFS via Pinata et utilise GitHub Actions pour automatiser le dÃ©ploiement.
 
-## Fonctionnalités
+## FonctionnalitÃ©s
 - Jeu de TicTacToe simple en HTML.
-- Hébergement décentralisé via IPFS.
-- Automatisation du déploiement avec GitHub Actions.
+- HÃ©bergement dÃ©centralisÃ© via IPFS.
+- Automatisation du dÃ©ploiement avec GitHub Actions.
 
 ## Structure du projet
 +-- README.md # Documentation du projet. 
@@ -18,25 +18,27 @@ src/
 	+--deploy.yml
 
 
-## Hébergement
-Le projet est hébergé sur IPFS. Après chaque mise à jour dans le dépôt GitHub, un nouveau CID est généré, permettant d'accéder à la dernière version via le lien :
+## HÃ©bergement
+Le projet est hÃ©bergÃ© sur IPFS. AprÃ¨s chaque mise Ã  jour dans le dÃ©pÃ´t GitHub, un nouveau CID est gÃ©nÃ©rÃ©, permettant d'accÃ©der Ã  la derniÃ¨re version via le lien :
 
 https://gateway.pinata.cloud/ipfs/bafkreida7e325zyqmrm4fymlmcen2p3qkieybbkv7fmf5htlwz37rbibjy
 
 
-## Dépendances
-- Compte Pinata pour héberger les fichiers sur IPFS.
-- Configuration de GitHub Actions pour l'automatisation des déploiements.
+## DÃ©pendances
+- Compte Pinata pour hÃ©berger les fichiers sur IPFS.
+- Configuration de GitHub Actions pour l'automatisation des dÃ©ploiements.
 
 ## Comment contribuer
-1. Clonez le dépôt :
+1. Clonez le dÃ©pÃ´t :
    ```bash
-   git clone <URL_DU_DEPOT>
+   git clone https://github.com/ShiroAlaFraise/TicTacToe-DT.git
    cd tictactoe-dapp
-2. Créez une nouvelle branche pour vos modifications :
+2. CrÃ©ez une nouvelle branche pour vos modifications :
+   ```bash
    git checkout -b feature/nom-de-votre-feature
-3. Commitez vos changements et poussez votre branche :
+4. Commitez vos changements et poussez votre branche :
+   ```bash
    git add .
-   git commit -m "Ajout d'une nouvelle fonctionnalité"
+   git commit -m "Ajout d'une nouvelle fonctionnalitÃ©"
    git push origin feature/nom-de-votre-feature
-4. Créez une pull request sur GitHub.
+6. CrÃ©ez une pull request sur GitHub.
